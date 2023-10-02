@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins-reular', sans-serif !important;
+}
+
+.app {
+  display: flex;
+  /* width: 100vw; */
+}
+
+.main {
+  background-color: #f9faff;
+  width: 100%;
+  padding: 30px;
+}
+
+.sections {
+  display: flex;
+}

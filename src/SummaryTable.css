@@ -1,0 +1,93 @@
+.summaryTable {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.summary__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.summary__header_img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  height: 30px;
+  width: 30px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.summaryByNumber {
+  width: 180px;
+  height: 80px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 16px;
+  padding-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.summary__table {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0 15px;
+}
+
+tbody {
+  margin-top: 30px;
+}
+
+th {
+  background-color: #fafafa;
+  padding: 15px;
+}
+td {
+  text-align: center;
+}
+.opportune {
+  text-align: start;
+  padding-left: 30px !important;
+}
+.status {
+  padding: 0 4px;
+  width: 4rem;
+  height: 9px;
+  border-radius: 50px;
+  font-size: 10px;
+  /* padding-top: 18px; */
+}
+.statusDis {
+  background-color: #fed8d4;
+}
+
+.statusActive {
+  background-color: #cbe3bf;
+}
+
+th,
+td {
+  /* width: 150px; */
+  height: 40px;
+  text-align: center;
+  border-bottom: 0.51px solid #f4f4f4;
+  padding: -45px 10px;
+  margin-top: 20px !important;
+}

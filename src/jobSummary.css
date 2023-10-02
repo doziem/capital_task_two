@@ -1,0 +1,71 @@
+.job {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.jobInfo {
+  display: flex;
+  /* flex-direction: column; */
+  width: 45vw;
+}
+.jobSummary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 12rem;
+  height: 177px;
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  line-height: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+p,
+span {
+  color: #0b0b0b;
+}
+.applied {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.jobSummary > h6 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.previousSummary {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 44px;
+}
+
+.previousSummary > span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.period {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.percentDiff {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #f0f6ff;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.back {
+  background-color: #fff3f0 !important;
+}
+.signalIcon {
+  margin-right: 5px;
+}

@@ -1,0 +1,51 @@
+.jobGraph {
+  background-color: #fff;
+  width: 580px;
+  height: 23rem;
+  margin-top: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.jobGraph_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.jobGraph_header > select {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.jobGraph_header__right {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+.jobGraph__qualify,
+.jobGraph__disqualify {
+  display: flex;
+}
+.jobGraph__qualify p,
+.jobGraph__disqualify p {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.jobGraph__qualify span,
+.jobGraph__disqualify span {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.jobGraph__qualify p {
+  background-color: #fbe38e;
+}
+
+.jobGraph__disqualify p {
+  background-color: #b1a5ff;
+}
